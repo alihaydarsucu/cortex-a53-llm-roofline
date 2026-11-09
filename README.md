@@ -1,8 +1,12 @@
 # Edge AI LLM Inference Benchmarking
 
-**llama.cpp on the T3 Gemstone O1 and Arduino UNO Q**
+**Reproducible benchmarking and Roofline analysis of quantized LLM inference bottlenecks on low-power in-order ARM Cortex-A53 edge processors (T3 Gemstone O1 & Arduino UNO Q).**
 
-This repository contains reproducible benchmarks of small instruction-tuned
+> This repository contains the preliminary measurement infrastructure and initial benchmark data for a research project. 
+> The project aims to analyze the memory bandwidth vs. dequantization compute bottlenecks of quantized LLMs
+> on in-order ARM Cortex-A53 processors using the Roofline model.
+
+It contains reproducible benchmarks of small instruction-tuned
 LLMs on low-power ARM single-board computers. It measures prompt-processing
 and token-generation throughput, peak memory, perplexity, task accuracy, and
 thermal behaviour for Qwen2.5-1.5B-Instruct across quantization levels, thread
