@@ -1,4 +1,4 @@
-# Edge AI LLM Inference Benchmarking
+# Roofline Analysis of Quantized LLM Inference Bottlenecks on Cortex-A53 Edge Processors
 
 **Reproducible benchmarking and Roofline analysis of quantized LLM inference bottlenecks on low-power in-order ARM Cortex-A53 edge processors (T3 Gemstone O1 & Arduino UNO Q).**
 
